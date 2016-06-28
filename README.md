@@ -2,6 +2,7 @@
 Goal for this project is to create a language agnostic object data format.
 
 The object data (fields/members) are written in nested xml structure:
+'''xml
 <o testObj1 t="org.objectR.MyObject">
   <f t="number">15.0</f>
   <f t="string">test string</f>
@@ -10,6 +11,7 @@ The object data (fields/members) are written in nested xml structure:
     <f t="number">1</f>
   </o>
 </o>
+'''
 
 The goal of this xml is to be as readable as possible, and yet be machine searchable.
 
